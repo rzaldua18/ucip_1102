@@ -83,11 +83,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["rate"], $_POST["hours"
     </thead>
     <tbody>
         <tr>
-            <td class="left">Hours Worked</td>
+            <td class="left">Pay Rate</td>
             <td class="right"><?= $hours ?></td>
         </tr>
         <tr>
-            <td class="left">Pay Rate</td>
+            <td class="left">Hours Worked</td>
             <td class="right"><?= number_format($rate, 2) ?></td>
         </tr>
         <tr>
