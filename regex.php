@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } elseif (strpos($user, ' ') !== false) {
             $userMessage = "Username must not contain spaces.";
         } elseif (strlen($user) !== 8) {
-            $userMessage = "Username must 8 characters.";
+            $userMessage = "Username must be 8 characters.";
         } elseif (!preg_match("/^USR_/", $user)) {
             $userMessage = "Username must start with 'USR_'";
         } elseif (!preg_match("/^USR_\d{2}/", $user)) {
