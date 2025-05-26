@@ -51,7 +51,7 @@
             </tr>
              <!--Input Cellphone Number!--> 
              <tr>
-                <td><label for="phone">Enter your Lastname:</label></td>
+                <td><label for="phone">Enter your Cellphone Number:</label></td>
                 <td><input type="text" id="phone" name="phone" placeholder="Cell phone" style="text-align: center;" value="<?= isset($_POST['phone']) ? htmlspecialchars(trim($_POST['phone'])) : '' ?>"></td>
             </tr>
         </tbody>
